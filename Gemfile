@@ -6,9 +6,6 @@ git_source(:github) do |repo_name|
 end
 
 #SPREE ECOM GEMS
-gem 'spree', '~> 3.1.0.rc1'
-gem 'spree_auth_devise', '~> 3.1.0.rc1'
-gem 'spree_gateway', '~> 3.1.0.rc1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.1'

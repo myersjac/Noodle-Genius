@@ -16,6 +16,5 @@
 
 body {
 	text-align: center; 
-	/* background-color: lightblue; */
-	background-image: image-url("noodles.jpg"); 
+	background-color: lightblue; 
 }

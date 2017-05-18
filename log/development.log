@@ -133,3 +133,27 @@ Processing by OrdersController#index as HTML
 Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/orders" for 127.0.0.1 at 2017-05-18 13:14:25 -0400
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 22ms (Views: 16.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-18 13:14:28 -0400
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 18ms (Views: 14.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-18 13:52:22 -0400
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (1.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 65ms (Views: 52.3ms | ActiveRecord: 1.0ms)
+
+

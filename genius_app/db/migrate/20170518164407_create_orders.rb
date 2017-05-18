@@ -1,6 +1,6 @@
-class CreateOrder1s < ActiveRecord::Migration[5.1]
+class CreateOrders < ActiveRecord::Migration[5.1]
   def change
-    create_table :order1s do |t|
+    create_table :orders do |t|
       t.string :name
       t.string :items
       t.string :comments

@@ -12,7 +12,8 @@
     </tr>
   </thead>
 
-  <tbody background="noodles.jpg">
+  <body background="noodles.jpg">
+  <tbody>
     <% @orders.each do |order| %>
       <tr>
         <td><%= order.name %></td>
@@ -25,6 +26,7 @@
       
     <% end %>
   </tbody>
+</body>
 </table>
 
 <br>
